@@ -1,0 +1,678 @@
+/* Style CSS */
+
+
+/*  -- Structure du site -- */
+
+
+/* Balises sémantiques HTML */
+
+body
+{
+	background-color:#B6BFD5;
+	color:black;
+	font-family: verdana, arial, sans-serif;
+	font-size:0.9em;
+}
+
+header
+{
+	display:inline-block;
+}
+
+nav
+{
+	display:table-cell;
+	vertical-align:top;
+}
+
+section
+{
+	display: table-cell;
+	vertical-align: top;
+	padding-left:24px;
+	padding-right:24px;
+	width:100%;
+}
+
+aside
+{
+	display:table-cell;
+	vertical-align:top;
+}
+
+footer
+{
+	text-align:center;
+	height:50px;
+	margin-top:50px;
+}
+
+article
+{
+	width:100%;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* -- Formulaires -- */
+
+fieldset
+{
+	margin-left:30px;
+	width:85%;
+}
+
+legend
+{
+	font-weight:bold;
+}
+
+label
+{
+	vertical-align:top;
+	text-align:right;
+	display: inline-block;
+    width: 33%;
+}
+
+textarea
+{
+	resize:none;
+	width:60%;
+	height:50px;
+}
+
+input:focus
+{
+	background-color:#ECECEC;
+}
+
+.label
+{
+	display:inline;
+}
+
+/* -- Tableaux page membres */
+
+#cadre-page-membres table
+{
+	width:100%;
+	border-collapse:collapse;
+	border-bottom:1px dotted black;
+}
+
+#cadre-page-membres thead tr
+{
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px dotted black;
+	font-weight:bold;
+	border-right:1px solid black;
+	font-size:1em;
+}
+
+#cadre-page-membres thead td
+{
+	padding:5px;
+	border-right:1px dotted black;
+}
+
+#cadre-page-membres tbody tr
+{
+	border-left:1px solid black;
+	border-right:1px solid black;
+	font-size:1em;
+}
+
+#cadre-page-membres tbody td
+{
+	max-width:100px;
+	padding:5px;
+	border-left:1px dotted black;
+	word-wrap:break-word;
+}
+
+#cadre-page-membres thead tr
+{
+	background-color:#D9D9D9;
+}
+
+/* -- IDs de l'interface du site -- */
+
+#cadre1 
+{
+	margin:4px;
+	min-width:800px;
+	min-height:400px;
+	padding:12px;
+	background-color:#EDF5FE;
+	border:1px solid #878787;
+	border-radius:10px;
+	box-shadow:2px 2px 2px black;
+	max-width:1100px;
+	position:absolute;
+	width:95%;
+}
+
+
+/* -- Header -- */
+
+#header-img
+{
+	background:url(../images/header.jpg);
+	display:inline-block;
+	width:591px;
+	height:78px;
+}
+
+#header-img:hover
+{
+	background:url(../images/header_hover.jpg);
+	display:inline-block;
+	width:591px;
+	height:78px;
+}
+
+#header-img:active
+{
+	background:url(../images/header_active.jpg);
+	display:inline-block;
+	width:591px;
+	height:78px;
+}
+
+.menu-haut
+{
+	display:inline-block;
+	border:1px outset black;
+	box-shadow:2px 2px 2px black;
+	margin-left:10px;
+	background-color:#F9FAFF;
+}
+
+.menu-haut a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.menu-haut a:hover
+{
+	text-decoration:none;
+	color:black;
+	background-color:#CDD2D2;
+	text-decoration:underline;
+}
+
+.menu-haut a:active
+{
+	box-shadow:3px 3px 3px black;
+}
+
+.lien-profil
+{
+	text-decoration:none;
+	color:black;
+}
+
+.lien-profil:hover
+{
+	text-decoration:underline;
+	color:black;
+}
+
+#liens-header
+{
+	display:inline-block;
+	position:absolute;
+	top:12px;
+	right:20px;
+}
+
+/* -- Menu gauche -- */
+
+#menu-gauche 
+{
+	width:155px;
+	background-color:#FEEAB1;
+	border:1px solid #000000;
+	border-radius:8px;
+	box-shadow:2px 2px 2px black;
+	font-size:1em;
+	height:262px;
+}
+
+#menu-gauche:hover
+{
+	width:155px;
+	background-color:#FEEEAF;
+	border:1px solid #000000;
+	border-radius:8px;
+	box-shadow:2px 2px 2px black;
+	font-size:1em;
+	height:262px;
+}
+
+#date
+{
+	background-color:#F9F9D9;
+}
+	
+#menu-gauche a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#menu-gauche a:hover
+{
+	text-decoration:none;
+	color:#383838;
+	font-weight:bold;
+	background-color:#FAECCF;
+}
+
+#menu-gauche a:active
+{
+	margin-left:2px;
+}
+
+#menu-gauche ul li:hover
+{
+	color:#B99729;
+}
+
+/* -- Menu droite -- */
+
+#menu-droite
+{
+	width:155px;
+	background-color:#D8E1DF;
+	border:1px solid #000000;
+	border-radius:8px;
+	box-shadow:2px 2px 2px black;
+	font-size:1em;
+	height:220px;
+}
+
+#menu-droite:hover
+{
+	width:155px;
+	background-color:#D8DEE5;
+	border:1px solid #000000;
+	border-radius:8px;
+	box-shadow:2px 2px 2px black;
+	font-size:1em;
+	height:220px;
+}
+
+#communaute
+{
+	background-color:#E3E6F9;
+	text-align:center;
+}
+
+#menu-droite li
+{
+	list-style-type:square;
+}
+
+#menu-droite li:hover
+{
+	list-style-type:square;
+	color:#8679BD;
+}
+
+#menu-droite a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#menu-droite a:hover
+{
+	background-color:#C9D0D4;
+	font-weight:bold;
+	color:black;
+}
+
+#menu-droite a:active
+{
+	margin-left:2px;
+}
+
+/* -- Pages centrales -- */ 
+
+
+/* -- Profil -- */
+
+.membre
+{
+	background-color:#7DFA96;
+	text-align:center;
+	font-weight:bold;
+}
+
+.modo
+{
+	background-color:#E3E6F9;
+	text-align:center;
+	font-weight:bold;
+}
+
+.admin
+{
+	background-color:#FFFDBA;
+	text-align:center;
+	font-weight:bold;
+}
+
+.cadre-profil
+{
+	background-color:#FFFFFF;
+	width:75%;
+	margin-top:15px;
+	margin-left:30px;
+	padding:15px;
+	border:1px solid;
+	border-radius:8px;
+	box-shadow:1px 1px 1px black;
+	margin:auto;
+}
+
+/* -- Liste des membres -- */
+
+#cadre-page-membres
+{
+	background-color:#FFFFFF;
+	padding-top:10px;
+	padding-bottom:30px;
+	padding-left:12px;
+	padding-right:12px;
+	border:1px dotted;
+	margin-top:10px;
+	min-height:90px;
+}
+
+.ligne-membre
+{
+	background-color:#EEEEEF;
+}
+
+.moi
+{
+	background-color:#F7EED1;
+}
+
+/* -- News -- */
+
+.cadre-article
+{
+	text-align:justify;
+	background-color:#FFFFFF;
+	padding:15px;
+	border:1px dotted;
+	min-height:90px;
+}
+
+.cadre-archives
+{
+	margin-top:22px;
+	text-align:justify;
+	background-color:#FFFFFF;
+	padding:15px 1px 15px 15px;
+	border:1px dotted;
+	min-height:90px;
+}
+
+.previsualisation-article
+{
+	max-height:358px;
+	overflow:hidden;
+}
+
+.titre-article
+{
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+#nouvel-article
+{
+	padding-top:20px;
+	float:right;
+}
+
+.label-nouvel-article
+{
+	display:inline-block;
+	width:15%;
+	text-align:right;
+}
+
+.textarea-titre
+{
+	width:70%;
+	height:40px;
+}
+
+.textarea-article
+{
+	resize:none;
+	width:70%;
+	height:200px;
+}
+
+hr
+{
+	clear:both;
+}
+
+.auteur
+{
+	text-decoration:none;
+	color:grey;
+}
+
+.auteur:hover
+{
+	color:black;
+}
+
+.cadre-article-archives
+{
+	text-align:justify;
+	background-color:#FFFFFF;
+	padding:15px;
+	padding-bottom:37px;
+	border:1px dotted;
+	min-height:90px;
+}
+
+.modif
+{
+	color:grey;
+	font-size:0.7em;
+	font-style:italic;
+}
+
+.left
+{
+	float:left;
+	margin-right:12px;
+}
+
+/* -- Forum -- */
+
+#cadre-forum1
+{
+	text-align:center;
+	margin-top:15px;
+	width:100%;
+	border:1px solid #A6A6A6;
+	overflow:auto;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+
+#cadre-forum2
+{
+	width:95%;
+	border:1px solid #A6A6A6;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding:15px;
+	border-radius:15px;
+	max-height:450px;
+	overflow:auto;
+}
+
+#cadre-forum1:hover, #cadre-forum2:hover
+{
+	border:1px solid #5E5E5E;
+}
+
+.msg-forum1
+{
+	display:inline-block;
+	width:98%;
+	background-color:#FAFFE1;
+	padding:1px;
+	border:1px dotted;
+}
+
+.msg-forum2
+{
+	display:inline-block;
+	width:98%;
+	background-color:#D8E1DF;
+	padding:1px;
+	border:1px dotted;
+}
+
+.date-msg
+{
+	display:inline-block;
+	float:right;
+	font-style:italic;
+	font-size:0.7em;
+	padding-top:9px;
+}
+
+.date-msg2
+{
+	display:inline-block;
+	float:right;
+	font-style:italic;
+	font-size:0.7em;
+}
+
+/* -- Désinscription -- */
+
+#cache
+{
+	display:none;
+}
+
+
+/* -- Classes de mise en page -- */
+
+.cadre-page
+{
+	text-align:justify;
+	background-color:#FFFFFF;
+	padding-top:1px;
+	padding:15px;
+	border:1px dotted;
+	margin-top:20px;
+	min-height:90px;
+}
+
+.centrer
+{
+	display:block;
+	margin:auto;
+}
+
+.centrer-txt
+{
+	text-align:center;
+}
+
+.cadre-evenement
+{
+	text-align:justify;
+	background-color:#FFF4CA;
+	padding-top:1px;
+	padding:15px;
+	border:1px solid;
+	border-radius:32px;
+	margin-top:20px;
+	min-height:90px;
+}
+
+.cadre-evenement2
+{
+	text-align:justify;
+	background-color:#D8E1DF;
+	padding-top:1px;
+	padding:15px;
+	border:1px solid;
+	border-radius:32px;
+	margin-top:20px;
+	min-height:90px;
+}
+
+
+/* -- Classes de texte -- */
+
+.page-titre
+{
+	font-size:1.7em;
+}
+
+.souligne
+{
+	text-decoration:underline;
+}
+
+.italique
+{
+	font-style: italic;
+}
+
+.petit
+{
+	font-size:0.7em;
+}
+
+.moyen
+{
+	font-size:0.8em;
+}
+
+.champs
+{
+	color:red;
+	font-size:0.7em;
+}
+
+.rouge
+{
+	color:red;
+}
+
+.bleu
+{
+	color:blue;
+}
+
+.vert
+{
+	color:#399A32;
+}
+
+.gris
+{
+	color:grey;
+}
